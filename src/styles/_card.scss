@@ -20,7 +20,7 @@
     object-fit: cover;
   }
 
-  &__name {
+  &__title {
     font-size: $font-size-base;
     font-weight: $font-weight-medium;
     line-height: 18px;
@@ -28,7 +28,7 @@
     color: $main-accent;
     transition: color 300ms ease;
   }
-    &:hover &__name {
+    &:hover &__title {
     color: $title-hover-color;
     }
 
