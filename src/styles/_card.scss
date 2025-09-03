@@ -28,10 +28,9 @@
     color: $main-accent;
     transition: color 300ms ease;
   }
-    &:hover &__title {
+  &:hover &__title {
     color: $title-hover-color;
-    }
-
+  }
 
   &__code {
     color: $secondary;
@@ -88,7 +87,9 @@
     margin-top: $spacing-s;
     line-height: 40px;
     width: 100%;
-    transition: background-color 300ms ease, color 300ms ease;
+    transition:
+      background-color 300ms ease,
+      color 300ms ease;
 
     &:hover {
       cursor: pointer;

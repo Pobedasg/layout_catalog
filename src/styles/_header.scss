@@ -33,6 +33,7 @@
   line-height: 100%;
   white-space: nowrap;
   padding: 0;
+  transition: color 300ms ease;
 }
 
 .moyo_header_nav .moyo_header_nav_item:not(:first-child) {
